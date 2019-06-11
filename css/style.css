@@ -1,0 +1,118 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+}
+
+h1, h2{
+	font-family: 'Righteous', Helvetica, Arial, sans-serif;
+	color: crimson;
+}
+
+h1{
+	text-align: center;
+	font-size: 60px;
+	margin: 0;
+}
+
+a{
+	color: dodgerblue;
+}
+a:hover{
+	color: deepskyblue;
+}
+
+p{
+	line-height: 30px;
+}
+
+p.caption{
+	color: #C1C1C1;
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 4px;
+}
+
+nav{
+	background-color: crimson;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	display: inline-block;
+	height: 35px;
+	padding-top: 15px;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+nav a:hover{
+	background-color: tomato;
+	color: white;
+}
+
+nav a.current-page{
+	color: salmon;
+}
+
+header{
+	background-color: #171A78;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+blockquote{
+	font-size: 32px;
+	color: #B22222;
+	font-weight: bold;
+	border-left: 4px solid #B22222;
+	padding-left: 20px;
+	line-height: 45px;
+}
+
+footer{
+	background-color: crimson;
+	color: white;
+	padding: 40px 10px;
+	text-align: center;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: salmon;
+}
+
+.avatar{
+	display: block;
+	margin: 0 auto;
+	width: 280px;
+	height: 280px;
+	border: 10px solid crimson;
+	border-radius: 150px;
+}
